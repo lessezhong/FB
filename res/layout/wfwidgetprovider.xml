@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#48000000"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/w_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:text="桂林"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/w_wd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="7dp"
+            android:text="温度"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/showxingqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="按钮" />
+
+            <TextView
+                android:id="@+id/w_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="日期" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/w_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/d00"
+            android:text="温度" />
+    </LinearLayout>
+
+</LinearLayout>

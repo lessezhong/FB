@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">吾友天气</string>
+    <string name="menu_settings">Settings</string>
+    <string name="city_name">城市:</string>
+    <string name="temper">温度:</string>
+    <string name="weather">情况:</string>
+    <string name="wind1">风向:</string>
+    <string name="city_confirm">确认</string>
+    <string name="notice">请输入城市名称</string>
+    <string name="city_seting">设置要查询的城市名称</string>
+    <string name="exit">退出</string>
+    <string name="share">分享天气</string>
+    <string name="weatherimage">天气图片</string>
+    <string name="hello_world">hello</string>
+    <string name="about">about</string>
+    
+
+</resources>

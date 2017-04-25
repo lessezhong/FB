@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/choose1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6CAFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/updataCity_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:textSize="20dp"
+                android:text="更新城市" />
+
+            <TextView
+                android:id="@+id/updataCity_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:text="guilin" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxRefresh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="是否启动自动更新" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前更新时间(分钟)" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分钟" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/fresh_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:hint="输入你的更新时间：单位分钟"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/MyConfigurationConfirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:text="保存你的配置" />
+
+</LinearLayout>

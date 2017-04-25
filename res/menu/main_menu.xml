@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/main_menu_shezhi"
+        android:icon="@drawable/set"
+        android:title="设置"/>
+    
+    <item
+        android:id="@+id/main_menu_shuaxin"
+        android:icon="@drawable/refresh"
+        android:title="about"/>
+   
+    <item
+        android:id="@+id/main_menu_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/share"/>
+     <item
+        android:id="@+id/main_menu_exit"
+        android:icon="@drawable/exit"
+        android:title="@string/exit"/>
+
+</menu>

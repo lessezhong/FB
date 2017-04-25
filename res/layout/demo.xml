@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="500px"
+        android:layout_height="50px"
+        android:background="#ffd123"
+        android:scrollbars="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="未来天气预报" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="未来天气预报" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="未来天气预报" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="未来天气预报" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
